@@ -1,0 +1,60 @@
+
+h1{
+	color:#87ed55;
+	text-align:left;
+}
+
+span
+{
+	color:#555457;
+}
+
+#icone{
+	width:10px;
+}
+
+#pied-de-page{
+	text-align:right;
+	font-family:monospace; /*caractere monospace*/
+}
+
+
+#menu, #menu ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+
+}
+
+#menu li{
+	display:inline-block;
+	position:relative;
+	border-radius:8px 8px 0 0;
+	
+}
+
+.sous-menu{
+	margin-right:55px;
+}
+
+#menu ul li{
+	display:inherit;
+	margin-top:25px;
+}
+
+#menu a{
+	text-decoration:none;
+	display:block;
+	color : green;
+}
+
+#menu ul{
+	position:absolute;
+	left:-999em;
+	text-align:left;
+	z-index:1000;
+}
+
+#menu li:hover ul{
+	left:auto
+}

@@ -1,0 +1,124 @@
+html,body
+{
+    width:80%;
+    height:100%;
+}    
+
+body
+{
+    margin:0;
+    padding:0;
+}
+
+h1{
+	color:black;
+	text-align:center;
+	font-size:2vw;
+}
+
+table
+{
+	margin-left:10px;
+   
+}
+
+td{
+	width: 5%;
+	min-width: 2em;
+	
+}
+
+sup{
+	text-align: right;
+	font-size:1vw;
+}
+
+small{
+	text-align: left;
+	font-size:1vw;
+}
+
+table tr.interlign td{
+    margin-top: 1vw;
+    height: 2vw;
+}
+.void{
+	border:none;
+}
+
+#img-titre{
+	width:4vw;
+}
+
+#pied-de-page{
+	text-align:right;
+}
+
+.separation{
+	padding-top: 2vw;
+}
+
+.atome{
+	text-align: center;
+	border:solid;
+	border-color:black;
+	
+	font-size:1.6vw;	
+}
+
+.type{
+	font-size:1.5vw;
+	text-align: center;
+}
+
+.gaz{
+	color:red;
+}
+
+.liquide{
+	color:blue;
+}
+
+.alcalin{
+	background-color:#ff6666;
+}
+
+.terreux{
+	background-color:#ffcc00;
+}
+
+.lantha{
+	background-color:#ffbfff;
+}
+
+.actinide{
+	background-color:#ff99cc;
+}
+
+.transition{
+	background-color:LightPink;
+}
+
+.pauvre{
+	background-color:LightGrey;
+}
+
+.metallo{
+	background-color:#cccc99;
+}
+
+.n-metaux{
+	background-color:PaleGreen;
+}
+
+.halogene{
+	background-color:#ffff99;
+}
+
+.noble{
+	background-color:PaleTurquoise;
+}
+
+.nclass{
+	background-color:White;
+}
